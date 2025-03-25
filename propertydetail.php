@@ -199,6 +199,16 @@ include("config.php");
                                 <?php } ?>
                             </ul>
                         </div>
+                        <div class="sidebar-widget mt-5">
+                            <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Buy Now</h4>
+                            <ul class="property_list_widget"> 
+                            <?php 
+                           //include("Payment.php");
+                            include("ohpayment.php");
+                            ?>
+                                
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

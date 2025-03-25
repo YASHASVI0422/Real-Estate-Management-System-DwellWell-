@@ -347,10 +347,10 @@ include("config.php");
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/22.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Floson'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Ghaziabad'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -362,10 +362,10 @@ include("config.php");
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/44.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Floson'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Haryana'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -377,10 +377,10 @@ include("config.php");
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/33.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='New Delhi'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Uttarakhand'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -392,7 +392,7 @@ include("config.php");
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/11.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
 										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='New Delhi'");
